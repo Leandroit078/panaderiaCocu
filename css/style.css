@@ -1,0 +1,32 @@
+ul{
+    list-style: none;
+    padding: 0;
+}
+.imagenprincipal {
+    width: 100%;
+  }
+  
+  .imagenprincipaltamaño {
+    object-fit: cover;
+    height: 300px;
+  }
+  .caja{
+    filter: grayscale(50%);
+  }
+  .caja:hover {
+    filter: grayscale(0%);
+    transition: 700ms;
+    transform: scale(1.1);
+  }
+
+@media all and (max-width: 767px){
+.bannerPanaderia{
+    height: 250px;
+    object-fit: cover;
+}
+.iconos{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+}
